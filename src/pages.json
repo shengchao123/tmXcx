@@ -1,0 +1,528 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"subPackages": [
+		{
+			"root": "pages/original-travel",
+			"pages": [
+				{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "初心之旅"
+					}
+				},
+				{
+					"path": "introduction/index",
+					"style": {
+						"navigationBarTitleText": "地标简介"
+					}
+				},
+				{
+					"path": "point-guide/index",
+					"style": {
+						"navigationBarTitleText": "地标周边"
+					}
+				},
+				{
+					"path": "stroke-order/index",
+					"style": {
+						"navigationBarTitleText": "创建行程单"
+					}
+				},
+				{
+					"path": "stroke-order/createSuccess",
+					"style": {
+						"navigationBarTitleText": "创建成功"
+					}
+				},
+				{
+					"path": "stroke-order/detail",
+					"style": {
+						"navigationBarTitleText": "行程单"
+					}
+				},
+				{
+					"path": "travel-list/index",
+					"style": {
+						"navigationBarTitleText": "临安星级旅行社"
+					}
+				},
+				{
+					"path": "stroke-order/signUp",
+					"style": {
+						"navigationBarTitleText": "报名"
+					}
+				},
+				{
+					"path": "stroke-order/signUpList",
+					"style": {
+						"navigationBarTitleText": "参与人员"
+					}
+				},
+				{
+					"path": "stroke-order/CustomPath",
+					"style": {
+						"navigationBarTitleText": "自定义路线"
+					}
+				},
+				{
+					"path": "stroke-order/GetRedPoints",
+					"style": {
+						"navigationBarTitleText": "添加红色地标"
+					}
+				},
+				{
+					"path": "evaluation/index",
+					"style": {
+						"navigationBarTitleText": "发布评价"
+					}
+				},
+				{
+					"path": "evaluate-detail/index",
+					"style": {
+						"navigationBarTitleText": "评价详情"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/think-tank",
+			"pages": [
+						{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "人才智库"
+					}
+				},
+				{
+					"path": "message/index",
+					"style": {
+						"navigationBarTitleText": "留言"
+					}
+				},
+				{
+					"path": "policy/Detail",
+					"style": {
+						"navigationBarTitleText": "政策详情"
+					}
+				},
+				{
+					"path": "expert/Detail",
+					"style": {
+						"navigationBarTitleText": "专家详情"
+					}
+				},
+				{
+					"path": "unionreinforce/Detail",
+					"style": {
+						"navigationBarTitleText": "职位详情"
+					}
+				},
+				{
+					"path": "countryside/Detail",
+					"style": {
+						"navigationBarTitleText": "无感直补"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/steward",
+			"pages": [
+				{
+			"path": "index/index",
+			"style": {
+				"navigationBarTitleText": "基层治理"
+			}
+		},
+		{
+			"path": "index/AdDetail",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "auth/index",
+			"style": {
+				"navigationBarTitleText": "社区认证"
+			}
+		},
+		{
+			"path": "1branch/index",
+			"style": {
+				"navigationBarTitleText": "好支部"
+			}
+		},
+		{
+			"path": "1branch/List",
+			"style": {
+				"navigationBarTitleText": "支部介绍"
+			}
+		},
+		{
+			"path": "2steward/index",
+			"style": {
+				"navigationBarTitleText": "好管家"
+			}
+		},
+		{
+			"path": "2steward/Steward",
+			"style": {
+				"navigationBarTitleText": "管家风采"
+			}
+		},
+		{
+			"path": "2steward/List",
+			"style": {
+				"navigationBarTitleText": "联盟介绍"
+			}
+		},
+		{
+			"path": "3helper/index",
+			"style": {
+				"navigationBarTitleText": "好帮手"
+			}
+		},
+		{
+			"path": "4neighbours/index",
+			"style": {
+				"navigationBarTitleText": "好邻里"
+			}
+		},
+		{
+			"path": "4neighbours/List",
+			"style": {
+				"navigationBarTitleText": "邻里介绍"
+			}
+		},
+		{
+			"path": "5case/index",
+			"style": {
+				"navigationBarTitleText": "好案例"
+			}
+		},
+		{
+			"path": "5case/Detail",
+			"style": {
+				"navigationBarTitleText": "项目详情"
+			}
+		},
+		{
+			"path": "matter/index",
+			"style": {
+				"navigationBarBackgroundColor": "#0066ED",
+				"navigationBarTitleText": "议事厅",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "matter/Success",
+			"style": {
+				"navigationBarTitleText": "我要报事"
+			}
+		},
+		{
+			"path": "matter/my-matter/index",
+			"style": {
+				"navigationBarTitleText": "我的报事"
+			}
+		},
+		{
+			"path": "service/index",
+			"style": {
+				"navigationBarTitleText": "服务站"
+			}
+		},
+		{
+			"path": "service/LeaveMessage",
+			"style": {
+				"navigationBarTitleText": "留言"
+			}
+		},
+		{
+			"path": "wish/index",
+			"style": {
+				"navigationBarTitleText": "志愿汇"
+			}
+		},
+		{
+			"path": "wish/wish-detail/index",
+			"style": {
+				"navigationBarTitleText": "心愿详情"
+			}
+		},
+		{
+			"path": "3helper/project-detail/index",
+			"style": {
+				"navigationBarTitleText": "项目详情"
+			}
+		},
+		{
+			"path": "3helper/add-record/index",
+			"style": {
+				"navigationBarTitleText": "添加记录"
+			}
+		},
+		{
+			"path": "3helper/reception-hall/index",
+			"style": {
+				"navigationBarTitleText": "领办大厅"
+			}
+		},
+		{
+			"path": "3helper/contact-list/index",
+			"style": {
+				"navigationBarTitleText": "共建单位联系表"
+			}
+		},
+		{
+			"path": "3helper/integral-rule/index",
+			"style": {
+				"navigationBarTitleText": "积分规则"
+			}
+		}
+			]
+		},
+		{
+			"root": "pages/mine",
+			"pages": [
+				{
+			"path": "notification/index",
+			"style": {
+				"navigationBarTitleText": "我的消息"
+			}
+		},
+		{
+			"path": "leave-message/index",
+			"style": {
+				"navigationBarTitleText": "留言回复"
+			}
+		},
+		{
+			"path": "notification/announcementDetail",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "card-record/index",
+			"style": {
+				"navigationBarTitleText": "打卡记录"
+			}
+		},
+		{
+			"path": "card-record/personnelCard",
+			"style": {
+				"navigationBarTitleText": "人员打卡情况"
+			}
+		},
+		{
+			"path": "real-name/index",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "published-agreement/index",
+			"style": {
+				"navigationBarTitleText": "天目红盟论坛发表协议"
+			}
+		},
+		{
+			"path": "my-hearts/index",
+			"style": {
+				"navigationBarTitleText": "我的红心"
+			}
+		},
+		{
+			"path": "my-hearts/Mall",
+			"style": {
+				"navigationBarTitleText": "红心商城"
+			}
+		},
+		{
+			"path": "my-activity/index",
+			"style": {
+				"navigationBarTitleText": "我的活动"
+			}
+		},
+		{
+			"path": "my-trends/index",
+			"style": {
+				"navigationBarTitleText": "我的动态"
+			}
+		},
+		{
+			"path": "personal-settings/index",
+			"style": {
+				"navigationBarTitleText": "个人信息设置"
+			}
+		},
+		{
+			"path": "personal-settings/EditNick",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "org-life-record/index",
+			"style": {
+				"navigationBarTitleText": "填写组织生活记录"
+			}
+		},
+		{
+			"path": "org-life-record/Detail",
+			"style": {
+				"navigationBarTitleText": "组织生活记录"
+			}
+		}
+			]
+		},
+		{
+			"root": "pages/urban-rural/",
+			"pages": [
+				{
+			"path": "index/index",
+			"style": {
+				"navigationBarTitleText": "城乡融合",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "optimization/Detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "experience/AddCustomMade",
+			"style": {
+				"navigationBarTitleText": "我要定制"
+			}
+		},
+		{
+			"path": "experience/AddMerchantBooth",
+			"style": {
+				"navigationBarTitleText": "申请展位"
+			}
+		},
+		{
+			"path": "experience/Detail",
+			"style": {
+				"navigationBarTitleText": "商家展位详情"
+			}
+		},
+		{
+			"path": "resource/AddResource",
+			"style": {
+				"navigationBarTitleText": "发布资源"
+			}
+		}
+			]
+		}
+	],
+	"pages": [
+		{
+			"path": "pages/home/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/user/index/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/public/Login",
+			"style": {
+				"navigationBarTitleText": "授权"
+			}
+		},
+		{
+			"path": "pages/public/Bind",
+			"style": {
+				"navigationBarTitleText": "注册登录"
+			}
+		},
+		{
+			"path": "pages/union/index/index",
+			"style": {
+				"navigationBarTitleText": "党建联盟"
+			}
+		},
+		
+		{
+			"path": "pages/union/graphic/index",
+			"style": {
+				"navigationBarTitleText": "联盟风采"
+			}
+		},
+		{
+			"path": "pages/union/graphic/detail",
+			"style": {
+				"navigationBarTitleText": "联盟风采详情"
+			}
+		},
+		{
+			"path": "pages/union/interact/index/index",
+			"style": {
+				"navigationBarTitleText": "联盟互动"
+			}
+		},
+		{
+			"path": "pages/union/interact/send-post/index",
+			"style": {
+				"navigationBarTitleText": "发帖"
+			}
+		},
+		{
+			"path": "pages/union/interact/detail/index",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/union/interact/note-detail/index",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		},
+		{
+			"path": "pages/webView",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "天目红盟",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#f54400",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_l.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/user/index/index",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mine_l.png",
+				"text": "我的"
+			}
+		]
+	}
+}

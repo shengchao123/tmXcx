@@ -1,0 +1,105 @@
+/* uni.scss */
+@import 'uview-ui/theme.scss';
+
+
+
+/* 页面左右间距 */
+$page-row-spacing: 30rpx;
+$page-color-base: #f8f8f8;
+$page-color-light: #f8f6fc;
+$base-color: #fa436a;
+
+/* 文字尺寸 */
+$font-sm: 24rpx;
+$font-base: 28rpx;
+$font-lg: 32rpx;
+/*文字颜色*/
+$font-color-dark: #333333;
+$font-color-base: #666666;
+$font-color-light: #999999;
+$font-color-disabled: #d2d2d2;
+$font-color-spec: #4399fc;
+
+$border-color-dark: #DCDFE6;
+$border-color-light: #EBEEF5;
+/* 图片加载中颜色 */
+$image-bg-color: #eee;
+/* 行为相关颜色 */
+
+$uni-color-success: #0e130f;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+$imgHost: "https://hzslzx.oss-cn-hangzhou.aliyuncs.com/system/h5-mall/images/";
+
+$bgColor: #f7f7f7;
+
+/* 边框颜色 */
+$borderColor: #EAEAEA;
+
+// 文字颜色
+$color-333: #333333;
+$color-666: #666666;
+$color-999: #999999;
+$color-f54400: #F54400;
+
+$color-primary: #3049C0;
+
+.color-primary {
+  color: $color-primary;
+}
+
+
+.color-333 {
+  color: $color-333
+}
+.color-666 {
+  color: $color-666
+}
+
+.color-999 {
+  color: $color-999
+}
+
+.bg-color {
+  background-color: $bgColor;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.white-color {
+  color: #ffffff;
+}
+
+.primary-color {
+  color: $color-f54400;
+}
+
+.success-color {
+  color: $uni-color-success
+}
+
+.warning-color {
+  color: $uni-color-warning
+}
+
+.error-color {
+  color: $uni-color-error
+}
+
+// ———————————————————— 文字
+.primary-text {
+  color: $font-color-dark
+}
+.secondary-text {
+  color: $font-color-base
+}
+
+.tip-text {
+  color: $font-color-light
+}
+
+.color-e32417 {
+  color: #E32417;
+}

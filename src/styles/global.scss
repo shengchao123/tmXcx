@@ -1,0 +1,126 @@
+
+
+
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+
+.clearfix:after,
+.clearfix:before {
+   content: '';
+   display: table;
+  clear: both;
+}
+.full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.width100 {
+  width: 100%;
+}
+.placeholder-class {
+  color: #999999;
+}
+.submit-btn  {
+  color: white;
+  line-height: 100rpx;
+  background: $color-f54400;
+  height: 100rpx;
+  border-radius: 50rpx;
+  font-size: 34rpx;
+}
+.text-hidden {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.word-break{
+  word-break: break-all;
+}
+
+
+.map-address-content {
+  position: relative;
+  border-radius: 4px;
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.1);
+}
+
+.map-address-content::after {
+  content: "";
+  position: absolute;
+  bottom: -14rpx;
+  right: calc(48%);
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 4px;
+  border: 16rpx solid transparent;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  transform: scaleX(0.8) rotate(45deg);
+}
+
+
+.map-info-wrap {
+  position: relative;
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  .title {
+    font-family: PingFangSC-Medium;
+    font-size: 28rpx;
+    color: #333333;
+  }
+  .address {
+    margin-top: 16rpx;
+    margin-bottom: 16rpx;
+    font-family: PingFangSC-Regular;
+    font-size: 20rpx;
+    color: #999999;
+  }
+  .guide-btn {
+    margin-left: 16rpx;
+    font-size: 24rpx;
+    height: 56rpx;
+    width: 160rpx;
+    line-height: 56rpx;
+    text-align: center;
+    color: #518cfc;
+    border: 1px solid #518cfc;
+    border-radius: 28rpx;
+  }
+}
+.map-info-wrap::after {
+  content: "";
+  position: absolute;
+  bottom: -14rpx;
+  right: calc(48%);
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 4px;
+  border: 16rpx solid transparent;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  transform: scaleX(0.8) rotate(45deg);
+}
+
